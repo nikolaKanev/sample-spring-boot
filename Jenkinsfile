@@ -15,7 +15,7 @@ pipeline {
 
     environment {
       DOCKERHUB_CREDENTIALS = credentials('docker')
-      IMAGE_NAME = 'nikolaKan/slave'
+      IMAGE_NAME = 'nikolakan/slave'
     }
 
     stages {
